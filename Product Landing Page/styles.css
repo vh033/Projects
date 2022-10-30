@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E6E0BB;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#header-img {
+    margin-right: 60vw;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E6E0BB;
+}
+
+#navbar > ul {
+    float: right;
+
+    
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: black;
+    color: #E6E0BB
+  }
+
+
+  .contact {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Prodcuts */
+
+  #pricing {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    justify-content: center;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+
+  .products > .level {
+    background-color: #e4da96;
+    color: black;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%
+  }
+
+  .products > h3 {
+    margin-top: 15px;
+  }
+
+  .products > ol {
+    margin: 15px 0;
+  }
+
+  .products > ol > li {
+    padding: 5px 0;
+
+  }
+
+  /* Footer */
+
+  footer {
+    margin-top: 30px;
+    background-color: #e4da96;
+    padding: 20px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
